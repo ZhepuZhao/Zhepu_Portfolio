@@ -257,7 +257,7 @@
               <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>JavaScript</h4>
+              <h4>D3 & JavaScript</h4>
               <p class="text-muted">Boston Crime Incident Visual Analytics</p>
             </div>
           </div>
@@ -439,16 +439,82 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
+                <div class="modal-body" style="text-align:Left">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Java, MVC, Object-Oriented Application</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">Chef Game Application</h2>
+                  <p class="item-intro text-muted">Java, MVC, Object-Oriented Application</p>
+                  <p>This is a Java game application based on MVC and other design patterns like Observer, Decorator, Iterator, and Factory.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/01-thumbnail.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h4>Middle Panel</h4>
+                  <hr>
+                  <p>"Intro" button: show some introduction of the game</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/chef/1.png" alt="">
+                  <p>Initially, each position is gray which means there is no plate on it.</P>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/chef/2.png" alt="">
+                  <h6>When we click "rotate" button, there should be random colorful plates placed on the belt.</h6>
+                  <p><b>Random means: (User can create customized sushi on the right panel)</b></p>
+                  <p>
+                    1. random plate(blue, yellow, gold, red) Each kind of plate has specific price. The price of gold plate is changeable.<br>
+                    2. random ingredient<br>
+                    3. random position<br>
+                    4. random sushi type<br>
+                    5. random chef type and chef name: chef can create Sashimi, Nigiri, or Roll.<br>
+                    6. random customer: customers would consume sushi on the plates randomly. (No cutomer GUI in this project)<br>
+                  </p>
+                  <h6>When we click on each plate, there should be the information of the plate</h6>
+                  <p><b>The alert window includes the following information</b></p>
+                  <p>
+                    1. The type of the sushi: Sashimi, Nigiri, or Roll<br>
+                    2. If the sushi is roll, the ingredients it has<br>
+                    3. The name of the chef who created this sushi<br>
+                    4. The age of the plate: the rotation times of the plate<br>
+                  </p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/chef/3.png" alt="">
+
+                  <!--Left Panel-->
+                  <h4>Left Panel</h4>
+                  <hr>
+                  <h6>"Balance" button: show the balance of each chef from highest to lowest.</h6>
+                  <p>Balance = 100(initial blance) + price of consumed plates - cost of ingredients(create sushi will cost some money of chef)</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/chef/4.png" alt="">
+
+                  <h6>"Spoiled Amount" button: show the spoiled amount of sushi from lowest to highest</h6>
+                  <p>Sushi could be spoiled after several rotations</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/chef/5.png" alt="">
+
+                  <h6>"Consumed Amount" button: show the consumed amount of sushi from highest to lowest</h6>
+                  <p>Random customers will consume sushi created from different chef</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/chef/6.png" alt="">
+
+                  <!--Right Panel-->
+                  <h4>Right Panel</h4>
+                  <hr>
+                  <h6>3 types of sushi in total: Sashimi, Nigiri, and Roll</h6>
+                  <p>
+                    1. Sashimi and Nigiri could have only one type of ingredient from five choices<br>
+                    2. Roll could have up to 8 types of ingredients from 8 choices. Each ingredient can be added up to 1.5 oz<br>
+                    3. Player can only create one type of sushi once and must choose the plate type and position.<br>
+                  </p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/chef/7.png" alt="">
+
+                  <h6>Nigiri and Sashimi Making</h6>
+                  <p>If the user choose one kind of sushi (Sashimi, Nigiri, or ROll), the other two are set disabled. </p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/chef/8.png" alt="">
+
+                  <h6>Roll Making</h6>
+                  <p>To create roll, the player should customize the types and amount of the ingredients</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/chef/9.png" alt="">
+
+                  <h6>Clear Choice</h6>
+                  <p>The player could clear the choice and recreate the sushi he/she wants</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/chef/10.png" alt="">
+
+                  <h6>Gold Plate Price</h6>
+                  <p>If the player choose the gold plate, a price chooser appears. As a chef, he/she should cutomize the price of the plate</p>
+
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                    <li>Date: January 2018 - May 2018</li>
+                    <li>Category: Java Client Application</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -473,16 +539,23 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
+                <div class="modal-body" style="text-align: left">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Academic Article Metadata Formatting</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-thumbnail.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Academic Article Data Formatting</h2>
+                  <p class="item-intro text-muted">PHP, LAMP</p>
+                  <h4><a href="https://zhepu-zhepu.cloudapps.unc.edu/APA_data_format_project/zhepu_p1_browse.php" target="_blank">Click here to interact</a></h4>
+                  <h4>This project mainly implements following functions:</h4>
+                  <ul>
+                    <li>Add sort function so that user could sort based on different kinds of data of an article like title, author, year</li>
+                    <li>Pagination implementation</li>
+                    <li>When click author to sort, it should sort by the last name of the author</li>
+                    <li>The raw data start with the author's first name followed by middle name and then last name. After formatting, the data could be sorted by the first author's last name in each tuple. The format of name was changed into APA style which starts with the author's last name followed by the initial of his middle name and first name.</li>
+                  </ul>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/php_APA/1.png" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/projects/php_APA/2.png" alt="">
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>Category: PHP; LAMP</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -507,16 +580,39 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
+                <div class="modal-body" style="text-align: left">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">FULLTEXT Search Implementation</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-thumbnail.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p class="item-intro text-muted">PHP, LAMP, FULLTEXT Search, login Implementation</p>
+                  <h4><a href="https://zhepu-zhepu.cloudapps.unc.edu/FULLTEXT_search_project/results.php" target="_blank">Click here to interact</a></h4>
+
+                  <h4>User Info</h4>
+                  <hr>
+                  <ul>
+                    <li>login username: rob</li>
+                    <li>login password: rob</li>
+                    <li>This website is only used for academic things. So, only one user is stored in the database. But it's a kind of real-life functional website which is connected the database installed on the server.</li>
+                  </ul>
+                  <h4>Login Interface</h4>
+                  <hr>
+                  <p>This is connected to the database server of UNC cloudapps. And the password stored is not rob, but sha1('rob') to protect the database.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/php_FULLTEXT_search/1.png" alt="">
+                  <h4>Search Interface</h4>
+                  <hr>
+                  <p>You can search the video you want by the search box. There are 198 videos in total stored in the database. Instead of simply storing video files, I just stored the metadata of videos and reconstruct the url of video linking the user to the targeted website.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/php_FULLTEXT_search/2.png" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/projects/php_FULLTEXT_search/3.png" alt="">
+                  <p>When you type in the search box, suggestions are given below the search box. These information is also stored in the database.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/php_FULLTEXT_search/4.png" alt="">
+                  <p>When the mouse moves over the picture or the title, the meta data information of the video is shown on the right side of the website.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/php_FULLTEXT_search/5.png" alt="">
+                  <h4>Logout</h4>
+                  <hr>
+                  <p>When the user clicks logout, it returns to the login interface. The webiste used session and cookie. So if one user open two tabs at the same time. If the user logs out on one tab, when he/she reloads the other one, it jumps back to the login interface. Also, when the user logs in, his/her name is shown in the middle of the top of the website.</p>
+
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                    <li>Category: PHP; LAMP; Search</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -544,13 +640,10 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">RESTful Web Application</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <p class="item-intro text-muted">Updating... Coming soon.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/04-thumbnail.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                    <li>Category: Python; RESTful</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -575,16 +668,44 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
+                <div class="modal-body" style="text-align: left">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Google Home Usability Test and Evaluation</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <p class="item-intro text-muted">Usability Test and Evaluation.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/05-thumbnail.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h4>Task List</h4>
+                  <hr>
+                  <p>Three interaction tasks that incorporated executing commands, checking information, and carrying a casual conversation. Participants might want to read the task script prior to the experiment and let the moderator know when they completed each task:</p>
+                  <ul><li>Issue news and music playing commands:</li></ul>
+                  <p>The participant is required to request a piece of news of any topics at that day and then play a music he or she likes. Participants’ queries were expected to be as natural as in their real life. Completion: the participant gets news they like and a song by his or her issued artist or genre Partial completion: the participant gets unrelated news, or get an undesired music as the response.</p>
+                  <ul><li>Check information about attractions in one city and flight information:</li></ul>
+                  <p>The participant is required to learn about some interesting attractions in Oslo in Norway, Cape Town in South Africa, or Geneva in Switzerland and sequentially turn to seek flight information (date, price). Completion: the participant gets names of at least three attractions and information of the most recent flight (price and date) Partial completion: One or more than one piece of information fails to be obtained.</p>
+                  <ul><li>Start and carry a casual conversation:</li></ul>
+                  <p>The participant is required to initiate a conversation and keep it going on as long as he or she wanted to reach an end. Participants were provided cues of questions in task script and had no limitations in topic choices.</p>
+                  <hr>
+                  <h4>Findings</h4>
+                  <hr>
+                  <p>
+                    In terms of Google Home:<br>
+                    <ul>
+                      <li>Overall, it is easy for users to get started with Google Home, but hard to fully complete the task.</li>
+                      <li>GH falls short of user’s expectation when dealing with multi-step information checking tasks.</li>
+                      <li>GH underperforms the imperative requests than interrogative requests.</li>
+                      <li>The design of dialogue register (Hey Google) and feedback visualization (LED light) receives an insufficiently satisfactory assessment</li>
+                    </ul>
+                    In terms of users:<br>
+                    <ul>
+                      <li>The user experience has some effects on Google Home’s performance, especially in multi-step tasks.</li>
+                      <li>Miscommunication can be a critical factor that impacts the user’s satisfaction.</li>
+                      <li>The miscommunication may be associated with length and type of user’s requests.</li>
+                      <li>While issuing request, users prefer interrogative requests to imperative requests.</li>
+                      <li>The attitudes and expectations towards GH varies across individuals. Users may adjust their expectation along performing the task, which correspondingly lead to certain responses or actions.</li>
+                    </ul>
+                  </p>
+
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
+                    <li>Category: Usability Test</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -611,14 +732,11 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Boston Crime Incident Visual Analytics</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">Chapel Hill Incidents Visualization</h2>
+                  <p class="item-intro text-muted">Updating... Coming soon.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/06-thumbnail.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
+                    <li>Category: D3; JavaScript</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
